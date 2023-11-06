@@ -1,9 +1,18 @@
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Pressable } from "react-native";
 import styles from "../assets/styles";
+import { useNavigation } from "@react-navigation/native";
 
 export default function Card({ item }) {
+  const navigation = useNavigation();
+
   return (
-    <>
+    <Pressable
+      onPress={() =>
+        navigation.navigate("Detail", {
+          id: item.mal_id,
+        })
+      }
+    >
       <View
         style={{
           width: styles.screenSize.width / 2.5,
@@ -34,6 +43,6 @@ export default function Card({ item }) {
           {item.title}
         </Text>
       </View>
-    </>
+    </Pressable>
   );
 }
