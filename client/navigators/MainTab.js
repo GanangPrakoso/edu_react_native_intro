@@ -13,7 +13,7 @@ export default function MainTab() {
         component={MainStack}
         options={{
           headerShown: false,
-          title: "shinji sadboy",
+          title: "Home",
           tabBarIcon: ({ color, size }) => {
             return <Entypo name="home" size={size} color={color} />;
           },

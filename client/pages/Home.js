@@ -45,10 +45,6 @@ export default function Home({ navigation }) {
         >
           Anime List
         </Text>
-        {/* <Button
-          title="ke detail walaupun button ini ga make sense"
-          onPress={() => navigation.navigate("Detail")}
-        /> */}
         {loading ? (
           <Loader />
         ) : (

@@ -5,13 +5,13 @@ import { useEffect } from "react";
 export default function Detail() {
   const route = useRoute();
 
-  //   useEffect(() => {
-  //     // fetch anime id 1
-  //   }, []);
+  useEffect(() => {
+    console.log("fetch anime id " + route.params.id);
+  }, []);
 
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text style={{ fontSize: 24 }}>ini detail bossss {route.params.id}</Text>
+      <Text style={{ fontSize: 24 }}>ini detail tauk {route.params.id}</Text>
     </View>
   );
 }
