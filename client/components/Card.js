@@ -25,9 +25,8 @@ export default function Card({ item }) {
         <Text
           style={{
             color: "white",
-            fontWeight: "bold",
-            fontSize: 18,
-            marginTop: 8,
+            fontSize: 16,
+            marginTop: 10,
             textAlign: "center",
           }}
         >

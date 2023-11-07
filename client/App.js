@@ -1,16 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import {
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  ImageBackground,
-  Dimensions,
-  FlatList,
-  SafeAreaView as SafeAreaIphone,
-} from "react-native";
-// import { SafeAreaView } from "react-native-safe-area-context"; // only works on android
-import styles from "./assets/styles";
+import { Text, View, ImageBackground, FlatList } from "react-native";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Card from "./components/Card";
@@ -54,7 +43,7 @@ export default function App() {
             marginBottom: 14,
           }}
         >
-          Anime List
+          Weeb Trash
         </Text>
         {loading ? (
           <Loader />
