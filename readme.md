@@ -10,6 +10,14 @@
 
 - https://reactnative.dev/docs/environment-setup
 
+#### Managed vs Bare Workflow
+
+- https://docs.expo.dev/archive/managed-vs-bare/
+
+#### Limitation
+
+- https://docs.expo.dev/faq/
+
 #### Using components
 
 - https://reactnative.dev/docs/components-and-apis
